@@ -1,4 +1,4 @@
 less-plugin-npm-import
-======================
+========================
 
-Allows importing from NPM packages
+Adds the ability for less to import from npm packages

@@ -1,0 +1,37 @@
+{
+    "name": "less-plugin-npm-import",
+    "version": "1.0.0",
+    "description": "npm import plugin for less.js",
+    "homepage": "http://lesscss.org",
+    "contributors": [
+        { "name": "Lindsay Forbes" },
+        { "name": "Luke Page" }
+    ],
+    "bugs": {
+        "url": "https://github.com/less/less-plugin-npm-import/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/less/less-plugin-npm-import.git"
+    },
+    "licenses": [
+        {
+            "type": "Apache v2",
+            "url": "https://github.com/less/less-plugin-npm-import/blob/master/LICENSE"
+        }
+    ],
+    "main": "lib/index.js",
+    "engines": {
+        "node": ">=0.4.2"
+    },
+	"dependencies": {
+        "resolve": "~1.0.0"
+	},
+    "devDependencies": {
+    },
+    "keywords": [
+        "less plugins",
+		"autoprefixer",
+		"less prefixes"
+    ]
+}

@@ -29,7 +29,7 @@
     "node": ">=0.4.2"
   },
   "dependencies": {
-    "less": "https://github.com/less/less.js.git#2_0_0",
+    "less": "git+https://github.com/less/less.js.git#2_0_0",
     "resolve": "~1.0.0"
   },
   "devDependencies": {},

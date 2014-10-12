@@ -24,14 +24,14 @@
     "engines": {
         "node": ">=0.4.2"
     },
-	"dependencies": {
+    "dependencies": {
         "resolve": "~1.0.0"
-	},
+    },
     "devDependencies": {
     },
     "keywords": [
         "less plugins",
-		"autoprefixer",
-		"less prefixes"
+	"npm import",
+	"less prefixes"
     ]
 }

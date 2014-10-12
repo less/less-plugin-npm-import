@@ -28,10 +28,11 @@
         "resolve": "~1.0.0"
     },
     "devDependencies": {
+        "npm-import-plugin-test": "1.0.0"
     },
     "keywords": [
         "less plugins",
-	"npm import",
-	"less prefixes"
+        "npm import",
+        "less prefixes"
     ]
 }

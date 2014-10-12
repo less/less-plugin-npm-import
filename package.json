@@ -1,6 +1,6 @@
 {
     "name": "less-plugin-npm-import",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "npm import plugin for less.js",
     "homepage": "http://lesscss.org",
     "contributors": [

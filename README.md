@@ -8,6 +8,16 @@ Adds the ability for less to import from npm packages
 No options. import with npm://packagename/path..
 css/less extensions not necessary
 
+To use programatically, use something like this
+
+```
+var npm-import-plugin = require("less-plugin-npm-import"),
+    options = { plugins: [npm-import-plugin] };
+less.render(css, options)
+    .then(...
+```
+
+
 Testing
 -------
 

@@ -5,12 +5,19 @@ less-plugin-npm-import
 
 Adds the ability for less to import from npm packages
 
-1. Install with npm
-2. specify plugin in lessc with --npm-import
+## lessc usage
+
+Install with npm
+
+```bash
+npm install -g less-plugin-npm-import
+```
+
+specify plugin in lessc with --npm-import
 No options. import with npm://packagename/path..
 css/less extensions not necessary
 
-To use programatically, use something like this
+## Programmatic usage
 
 ```
 var npm-import-plugin = require("less-plugin-npm-import"),
@@ -19,6 +26,9 @@ less.render(css, options)
     .then(...
 ```
 
+## Browser usage
+
+Browser usage is not supported.
 
 Testing
 -------

@@ -25,12 +25,12 @@
         "node": ">=0.4.2"
     },
     "dependencies": {
-        "resolve": "~1.0.0",
-        "promise": "~6.0.0"
+        "resolve": "~1.1.0",
+        "promise": "~6.1.0"
     },
     "devDependencies": {
         "npm-import-plugin-test": "1.0.0",
-        "less": "^2.1.1"
+        "less": "~2.2.0"
     },
     "keywords": [
         "less plugins",

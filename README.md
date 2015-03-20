@@ -13,15 +13,29 @@ Install with npm
 npm install -g less-plugin-npm-import
 ```
 
-specify plugin in lessc with --npm-import
-No options. import with npm://packagename/path..
+In less file:
+
+```
+@import "npm://packagename/path/to/file.less";
+```
+
 css/less extensions not necessary
+
+Options:  
+prefix - default: npm://
+
+## Command line usage
+
+```
+lessc --npm-import file.less file.css
+lessc --npm-import="prefix=~" file.less file.css
+```
 
 ## Programmatic usage
 
 ```
-var npm-import-plugin = require("less-plugin-npm-import"),
-    options = { plugins: [npm-import-plugin] };
+var NpmImportPlugin = require("less-plugin-npm-import"),
+    options = { plugins: [new NpmImportPlugin({prefix: '~'})] };
 less.render(css, options)
     .then(...
 ```

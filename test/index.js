@@ -7,5 +7,9 @@ var less = require("less"),
 console.log("\n" + stylize("LESS - npm import", 'underline') + "\n");
 
 lessTester.runTestSet(
-    {strictMath: true, relativeUrls: true, silent: true, plugins: [plugin] },
+    {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugin()] },
+    "npm-import/");
+
+lessTester.runTestSet(
+    {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugin({ prefix: 'npm://'})] },
     "npm-import/");

@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "npm-import-plugin-test": "1.0.0",
-        "less": "~2.2.0"
+        "less": "~2.4.0"
     },
     "keywords": [
         "less plugins",

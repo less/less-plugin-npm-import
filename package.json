@@ -1,11 +1,12 @@
 {
     "name": "less-plugin-npm-import",
-    "version": "1.0.3",
+    "version": "2.0.0",
     "description": "npm import plugin for less.js",
     "homepage": "http://lesscss.org",
     "contributors": [
         { "name": "Lindsay Forbes" },
-        { "name": "Luke Page" }
+        { "name": "Luke Page" },
+        { "name": "Wiktor Kozlik" }
     ],
     "bugs": {
         "url": "https://github.com/less/less-plugin-npm-import/issues"

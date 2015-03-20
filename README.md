@@ -47,5 +47,5 @@ Browser usage is not supported.
 Testing
 -------
 
-run the tests by running `node test/index.js`
-You require the dev dependencies and less v2 in your node_modules (it will be added as a dev dependency once less v2 is released)
+run the tests by running `node test`
+You require the dev dependencies installed (which includes less)

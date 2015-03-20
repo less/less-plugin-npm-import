@@ -20,8 +20,8 @@ css/less extensions not necessary
 ## Programmatic usage
 
 ```
-var npm-import-plugin = require("less-plugin-npm-import"),
-    options = { plugins: [npm-import-plugin] };
+var npmImport = require("less-plugin-npm-import"),
+    options = { plugins: [npmImport] };
 less.render(css, options)
     .then(...
 ```

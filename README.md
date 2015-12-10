@@ -19,6 +19,12 @@ In less file:
 @import "npm://packagename/path/to/file.less";
 ```
 
+or if importing a css file an [import option](http://lesscss.org/features/#import-options) is required:
+
+```
+@import (less) "npm://packagename/path/to/file.css";
+```
+
 css/less extensions not necessary
 
 Options:  

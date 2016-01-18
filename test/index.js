@@ -13,3 +13,7 @@ lessTester.runTestSet(
 lessTester.runTestSet(
     {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugin({ prefix: 'npm://'})] },
     "npm-import/");
+
+lessTester.runTestSet(
+    {strictMath: true, relativeUrls: true, silent: true, plugins: [new plugin({ basedir: __dirname})] },
+    "npm-import/");

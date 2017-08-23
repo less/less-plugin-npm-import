@@ -1,5 +1,5 @@
 {
-    "name": "less-plugin-npm-import",
+    "name": "@nerdwallet/less-plugin-npm-import",
     "version": "2.1.0",
     "description": "npm import plugin for less.js",
     "homepage": "http://lesscss.org",

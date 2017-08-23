@@ -1,9 +1,16 @@
-[![NPM version](https://badge.fury.io/js/less-plugin-npm-import.svg)](http://badge.fury.io/js/less-plugin-npm-import) [![Dependencies](https://david-dm.org/less/less-plugin-npm-import.svg)](https://david-dm.org/less/less-plugin-npm-import) [![devDependency Status](https://david-dm.org/less/less-plugin-npm-import/dev-status.svg)](https://david-dm.org/less/less-plugin-npm-import#info=devDependencies) [![optionalDependency Status](https://david-dm.org/less/less-plugin-npm-import/optional-status.svg)](https://david-dm.org/less/less-plugin-npm-import#info=optionalDependencies)
-
-less-plugin-npm-import
+@nerdwallet/less-plugin-npm-import
 ========================
 
 Adds the ability for less to import from npm packages
+
+## NerdWallet Fork
+
+This package, `@nerdwallet/less-plugin-npm-import` is a fork of
+[less-plugin-npm-import][] to fix an issue with less in synchronous
+mode. See [less/less-plugin-npm-import#25][pr].
+
+[pr]: https://github.com/less/less-plugin-npm-import/pull/25
+[less-plugin-npm-import]: https://github.com/less/less-plugin-npm-import
 
 ## lessc usage
 
